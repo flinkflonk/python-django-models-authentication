@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-django-models-authentication"
+version = "0.1.0"
+description = "Pluralsight Django Models Project"
+authors = ["Michael Hinz <michael@hinz.no>"]
+license = "(not mine, no idea what Pluralsight licensed this as...)"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.2"
+django-crispy-forms = "^1.14.0"
+pytz = "^2021.3"
+six = "^1.16.0"
+sqlparse = "^0.4.2"
+unittest-xml-reporting = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
